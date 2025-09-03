@@ -55,18 +55,26 @@ body {
 }
 
 .btn {
-  background-color: transparent;
-  border: .1rem solid rgb(106, 103, 103);
+  background-color: #2ebf91;
+  color: #271d3b;
+  border: none;
+  border-radius: 25px;
   font-size: 1rem;
-  padding: .5rem 1rem;
+  padding: 0.6rem 1.4rem;
   font-family: monospace;
-  transition: 0.3s;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .btn:hover {
-  cursor: pointer;
-  background-color: #2ebf91;
-  color: #271d3b;
+  background: linear-gradient(135deg, #2ebf91, #27a97e);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  color: white;
 }
 
 /* Content Section */
